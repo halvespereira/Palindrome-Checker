@@ -1,0 +1,46 @@
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcedbd;
+}
+
+#title {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+#desc {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 27px;
+    margin-top: 0;
+}
+
+#input {
+    border: 4px solid black;
+    font-size: 30px;
+}
+
+.buttons {
+    width: 16vw;
+    height: 6vh;
+}
+
+#box textarea {
+    width: 90vw;
+    height: 55vh;
+}
+
+#bottomDiv {
+    display: flex;
+    align-items: center;
+}
+
+#bottomAnswer {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    justify-content: center;
+}
